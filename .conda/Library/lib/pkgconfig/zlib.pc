@@ -1,0 +1,13 @@
+prefix=d:/Data_Science_Course/.conda/Library
+exec_prefix=d:/Data_Science_Course/.conda/Library
+libdir=d:/Data_Science_Course/.conda/Library/lib
+sharedlibdir=d:/Data_Science_Course/.conda/Library/lib
+includedir=d:/Data_Science_Course/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
